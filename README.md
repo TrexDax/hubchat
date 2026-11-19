@@ -10,11 +10,11 @@ Offline LAN chat app for a coworking space (~200 users), written in pure Python 
 - Glassmorphism dark UI
 
 ## Run it
-```bash
-python3 server.py
-```
+
+    python3 server.py
+
 Optional, to enable HubBot:
-```bash
-ANTHROPIC_API_KEY=your-key python3 server.py
-```
+
+    ANTHROPIC_API_KEY=your-key python3 server.py
+
 On first run, the server creates its own access code file and data files.
